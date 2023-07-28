@@ -1,0 +1,80 @@
+*{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    background-image: url("https://previews.123rf.com/images/compuinfoto/compuinfoto1212/compuinfoto121200169/16979637-c%C3%ADrculos-de-fondo-azul-con-puntos-blancos.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+  
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.item {
+    width: 30%;
+    height: 60%;   
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.encabezado {
+    width: 100%;
+    height: 35%;
+    background-image: url(https://raw.githubusercontent.com/Practicas-CSS-Basico/Reto-1/7e4ce9f9f636d48011417e17f88f627d0d6dafcf/assets/images/card-pattern.svg);
+    background-size: cover;
+}
+.imagen {
+    width: 35%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+    bottom: 70px;
+    left: 130px;
+    border-radius: 100%;
+}
+.imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 5px solid #fff;
+    background-color: #fff;
+}
+.informacion1 {
+    width: 50%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 100px;
+    bottom: 70px;
+    border-radius: 20px;
+}
+.informacion1 h2,.informacion1 h3,.informacion2 h2,.informacion2 h3,.informacion3 h2,.informacion3 h3{
+    background: #fff;
+    text-align: center;
+}   
+
+.informacion2,.informacion3 {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    border-radius: 20px;
+}
+.informacion2 {
+    border-top: 2px solid rgb(0 0 0 / 0.5);
+}
